@@ -6,7 +6,6 @@
 * The program emulates a network topology consisting of 1 server and 3 client nodes.
 * Developed in Python with TCP connection.
 
-![Model](‪C:\Users\sH\Desktop\topology.png)
 
 ## 2. What It Can Do
 
