@@ -56,6 +56,6 @@
 ![](images/output.png)\
 
 3. Then a number of external terminals will pop open:\
-![(images/clients.png)]\
+![](images/clients.png)\
 These terminals are responsible for each of the nodes described in the model.
 
