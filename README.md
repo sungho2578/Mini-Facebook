@@ -1,13 +1,15 @@
 # Mini Facebook
 
-## 1. What Is It?
+## 1. What is it?
 
 * An instant messaging app in virtualized network that implements a simple Facebook application using client-server model.
 * The program emulates a network topology consisting of 1 server and 3 client nodes.
 * Developed in Python with TCP connection.
 
+![](images/topology.png)
 
-## 2. What It Can Do
+
+## 2. What Can it Do?
 
     Mini Facebook is capable in:
     
@@ -44,8 +46,16 @@
             -------------------------------------------
             
             
-## 3. How To Run
+## 3. How to Run
 
 * The virtualized network runs on Mininet VM.
-1. On Mininet VM, run _finalTopol.py_ with the command:\
-      sudo mn --custom finalTopol.py --topo finaltopol -x
+1. On Mininet VM, run _finalTopol.py_ with the following command:\
+![](images/commands.png)\
+
+2. If everything is successful, you will see this:\
+![](images/output.png)\
+
+3. Then a number of external terminals will pop open:\
+![(images/clients.png)]\
+These terminals are responsible for each of the nodes described in the model.
+
